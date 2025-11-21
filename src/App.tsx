@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PresentationForm from "./components/AppForm";
-import AppHero from "./components/AppHero";
+import PresentationForm from "./components/AppForm.tsx";
+import AppHero from "./components/AppHero.tsx";
 
 function App() {
   const [started, setStarted] = useState(false);
